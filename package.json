@@ -1,0 +1,30 @@
+{
+  "name": "web3_sol_test_project",
+  "version": "1.0.0",
+  "description": "web3_sol_test_project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WinstionNG/web3_sol_test_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WinstionNG/web3_sol_test_project/issues"
+  },
+  "homepage": "https://github.com/WinstionNG/web3_sol_test_project#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "chai": "^4.3.7",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.28.4"
+  }
+}
