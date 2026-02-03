@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web3 AMM Demo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.8.0/dist/ethers.min.js"></script>
+</head>
+<body>
+  <h1>Web3 AMM Demo</h1>
+
+  <button id="connect">Connect Wallet</button>
+
+  <section>
+    <h2>Swap Token A → Token B</h2>
+    <input id="swapAmountA" placeholder="Amount A" />
+    <button id="swapBtn">Swap</button>
+  </section>
+
+  <section>
+    <h2>Add Liquidity</h2>
+    <input id="addAmountA" placeholder="Amount A" />
+    <input id="addAmountB" placeholder="Amount B" />
+    <button id="addLiquidityBtn">Add Liquidity</button>
+  </section>
+
+  <section>
+    <h2>Your LP Balance</h2>
+    <div id="lpBalance">0</div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
